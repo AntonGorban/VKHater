@@ -1,0 +1,6 @@
+# IDE
+.vscode
+.history
+
+# Develope
+node_modules

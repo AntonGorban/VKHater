@@ -1,0 +1,11 @@
+{
+  "name": "vk-hater",
+  "version": "1.0.0",
+  "description": "I hate VK",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AntonGorban <antogor.work@gmail.com>",
+  "license": "MIT"
+}
