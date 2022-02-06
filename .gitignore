@@ -1,6 +1,9 @@
 # IDE
-.vscode
-.history
+.vscode/
+.history/
 
 # Develope
-node_modules
+node_modules/
+dist/
+build/
+.env

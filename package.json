@@ -4,8 +4,23 @@
   "description": "I hate VK",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .\\dist\\index.js",
+    "start:dev": "nodemon .\\dist\\index.js",
+    "build:dev": "tsc --watch --preserveWatchOutput",
+    "build:prod": "tsc --project tsconfig.production.json",
+    "dev": "concurrently \"npm run build:dev\" \"npm run start:dev\"",
+    "clean:prod": "rm -r build",
+    "build": "concurrently \"npm run clean:prod\" \"npm run build:prod\""
   },
   "author": "AntonGorban <antogor.work@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.15",
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
 }
