@@ -1,0 +1,9 @@
+# IDE
+.vscode/
+.history/
+
+# Develope
+node_modules/
+dist/
+build/
+.env
