@@ -15,7 +15,8 @@
   "author": "AntonGorban <antogor.work@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "vk-io": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.15",
